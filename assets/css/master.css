@@ -1,0 +1,57 @@
+body{
+   font-family: 'Josefin Sans', sans-serif;
+   margin-left: 300px;
+   margin-top: 100px;
+}
+ #tarjeta {
+  height: 340px;
+  width: 800px;
+  background-image: url("../img/coders.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.datos {
+  height: 340px;
+  width: 760px;
+  position: absolute;
+  right: 0;
+  /*Se utiliza gradients con angulo*/
+  background: linear-gradient(120deg, rgba(60,60,59,0) 0%, rgba(60,60,59,0) 50%, rgba(60,60,59,1) 50%, rgba(60,60,59,1) 100%);
+  -moz-background: linear-gradient(120deg, rgba(60,60,59,0) 0%, rgba(60,60,59,0) 50%, rgba(60,60,59,1) 50%, rgba(60,60,59,1) 100%);
+  -webkit-background: linear-gradient(120deg, rgba(60,60,59,0) 0%, rgba(60,60,59,0) 50%, rgba(60,60,59,1) 50%, rgba(60,60,59,1) 100%);
+}
+.logo{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: -50px;
+}
+.nombre{
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  margin-left: 470px;
+  margin-top: 25px;
+}
+h1{
+   color: #fefefe;
+   text-align: center;
+}
+h3{
+   color: #eda628;
+   text-align: center;
+}
+p{
+   color: #fefefe;
+   text-align: justify;
+}
+.laboratoria{
+   position: absolute;
+   width: 80px;
+   height: 80px;
+   right: 0;
+   bottom: 0;
+
+}
